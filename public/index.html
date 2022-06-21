@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aftab-Portfolio</title>
+    <link rel="stylesheet" href="/node_modules/bootstrap/dist/css/bootstrap.css">
+    <link rel="stylesheet" href="/node_modules/bootstrap-icons/font/bootstrap-icons.css">
+    <link rel="shortcut icon" href="./favicon.ico">
+    <style type="text/css">
+        body{
+            background-image: linear-gradient(to right,rgb(154, 83, 234),rgb(222, 85, 234),rgb(232, 171, 234));
+            }
+        .img{
+            width: 85%;
+            border: none;
+            border-radius:55% 100% 100% 55% / 50% 50% 55% 60% ;
+        }
+       ol li a{
+            text-decoration: none;
+            color:white;
+            margin-right: 50px;
+            font-weight: bold;
+        }
+        .btn:hover,a:hover{
+            color: rgb(27, 241, 91);
+        }
+        .btn{
+            background-image: linear-gradient(to right,rgb(243, 153, 78),rgb(238, 238, 101));
+            color: rgb(255, 255, 255);
+            font-weight: bold;
+            border: none;
+            border-radius: 50px;
+        }
+        .logo img{
+           margin-right: 50px;
+           border: none;
+           border-radius: 50px;
+        }
+        .modal-header{
+            background-color: rgb(132, 245, 245);
+            text-shadow: 4px 3px 3px rgb(0, 0, 0);
+        }
+        .modal-body{
+            background-color: rgb(244, 221, 221);
+        }
+        .modal-body a{
+            text-decoration: none;
+        }
+        .modal-body a:hover{
+            color: rgb(255, 0, 0);
+        }
+        @media screen and (orientation:portrait){
+            .img{
+                width: 150px;
+                height: 100%;
+            }
+            ol li a{
+                font-size: 10px;
+                margin-right: 5px;
+            }
+            .Intro{
+                font-size: 30px;
+                margin-left: 30px;
+            }
+            .pro{
+                margin-left: 30px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header class="mt-4"> 
+        <ol class="d-flex justify-content-center align-items-center list-unstyled">
+            <li><a href="javascript:void()" data-bs-toggle="modal" data-bs-target="#about">About</a></li>
+            <li><a href="javascript:void()"data-bs-toggle="modal" data-bs-target="#education">Education</a></li>
+            <li><a href="javascript:void()" data-bs-toggle="modal" data-bs-target="#skill">Skills</a></li>
+            <li><a href="javascript:void()" data-bs-toggle="modal" data-bs-target="#project">Projects</a></li>
+            <li><a href="javascript:void()" data-bs-toggle="modal" data-bs-target="#contact">Contact</a></li>
+            <li><a href="tel:9390631717"><button class="btn"> <span class="bi bi-telephone-fill"></span> Contact Us</button></a></li>
+        </ol>
+    </header>
+   <section class="rows d-flex mt-4" >
+    <nav class="col-4">
+        <div>
+            <img class="img img-fluid" src="/public/Images/DSC_0333.JPG">
+        </div>
+    </nav>
+    <main class="col-8 d-flex justify-content-center align-items-center">
+       <div>
+        <div class="text-light display-1 fw-normal Intro" style="font-family: AR BLANCA;">Hello This is Aftab</div>
+        <div class="text-light fs-1 pro"style="font-family: AR BLANCA;"><span class="bi bi-dash-lg"></span> UI/UX Developer</div>
+
+        <div class=" logo d-flex justify-content-center align-items-center" style="margin-top: 200px;">
+           <a href="https://www.facebook.com/profile.php?id=100021576972555"><img src="/public/Images/facebook.png" width="30px" height="30px"></a>
+           <a href="https://www.instagram.com/aftab_2401/"><img src="/public/Images/instagram.png"  width="30px" height="30px"></a>
+           <a href="https://bit.ly/3HDtkXs"> <img src="/public/Images/whatsapp.png"  width="30px" height="30px"></a>
+           <a href="https://www.linkedin.com/in/aftab-ansari-274037227/">  <img src="/public/Images/linkdin.png"  width="30px" height="30px"></a>
+        </div>
+    
+       </div>
+    </main>
+   </section>
+
+   <div class="modal" id="about">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <div class="fw-bold text-danger text-center fs-3">About Myself</div>
+                <button class="btn-close" data-bs-dismiss="modal"></button>
+            </div>
+            <div class="modal-body">
+                <p>My name is Aftab Ansari. I'm 22 year old. I'm from Mirzapur Uttar Pradesh, but currently I live in Hyderabad. I have completed my Bacholar's degree BCA from Microtek College of Management and Technology (MGKVP) at last year 2021. I'm very panctual, hard working, creative person. I can speak in Hindi and English. I'm a fresher, but I have done some minor projects based on UI technology. After that I have came to Hyderabad and completed the UI Full Stack course within 4 months. Currently I'm learning Angular. That's all about me.</p>
+            </div>
+        </div>
+    </div>
+   </div>
+
+   <div class="modal" id="education">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <div class="fw-bold text-danger text-center fs-3">My Education</div>
+                <button class="btn-close" data-bs-dismiss="modal"></button>
+            </div>
+            <div class="modal-body">
+               <dl>
+                <dt>10<sup>th</sup> High School - 2016</dt>
+                <dd>Jay Jyoti Inter College, Chunar (U.P. Board)</dd>
+                <dt>12<sup>th</sup> Intermediate - 2018</dt>
+                <dd>Jay Jyoti Inter College, Chunar (U.P. Board)</dd>
+                <dt>Graduation Bacholar's Degree BCA - 2021</dt>
+                <dd>Microtek College of Management and Technology, Varanasi (MGKVP)</dd>
+               </dl>
+            </div>
+        </div>
+    </div>
+   </div>
+
+   <div class="modal" id="skill">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <div class="fw-bold text-danger text-center fs-3">My Skills</div>
+                <button class="btn-close" data-bs-dismiss="modal"></button>
+            </div>
+            <div class="modal-body">
+                <dl>
+                    <dt>1. Communication Language :</dt>
+                    <dd>Hindi and English</dd>
+                    <dt>2. UI Technologies :</dt>
+                    <dd class="fw-bold">Frontend Technologies -</dd>
+                    <dd>HTML, CSS, SASS, Bootstrap, JavaScript, jQuery, Ajax, TypeScript.</dd>
+                    <dd class="fw-bold">Backend Technologies -</dd>
+                    <dd>Node.js, Express, Mongodb.</dd>
+                    <dt>3. Familiar with :</dt>
+                    <dd>C, C++, Core JAVA</dd>
+                    <dt>4. Wordpress</dt>
+                    <dt>5. Framework : Angular 13</dt>
+                    <dt>6. Basic Computer Knowledge :</dt>
+                    <dd>MS Office, File System, Internet etc.</dd>
+                </dl>
+            </div>
+        </div>
+    </div>
+   </div>
+
+   <div class="modal" id="project">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <div class="fw-bold text-danger text-center fs-3">My Projects</div>
+                <button class="btn-close" data-bs-dismiss="modal"></button>
+            </div>
+            <div class="modal-body">
+              <dl>
+                <dt>1. E-commarce website:</dt>
+                <dd>i-shop(Based on IEEE project): It is a complete end to end application based on online shopping.</dd>
+                <dt>2. Portfolio Maker</dt>
+                <dd>It is a site for those people, who don't know how to build porfolio. Just by entering some details user can build our Portfolio and share to anyone.</dd>
+                <dt>3. Clone of Naresh i technology website.</dt>
+                <dt>4. Some basic :</dt>
+                <dd>EMI Calculator, BMI Calculator, Amazon home page etc.</dd>
+                <dt>5. Portfolio Website.</dt>
+              </dl>
+              <div>See Here : <a href="https://github.com/Aftab167">Visit Github</a></div>
+            </div>
+        </div>
+    </div>
+   </div>
+
+   <div class="modal" id="contact">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <div class="fw-bold text-danger text-center fs-3">Contact Details</div>
+                <button class="btn-close" data-bs-dismiss="modal"></button>
+            </div>
+            <div class="modal-body">
+               <dl>
+                <dt>Mobile Number :</dt>
+                <dd><a href="tel:+919795984955">9795984955</a></dd>
+                <dt>Email ID :</dt>
+                <dd><a href="mailto:ansariaftab.2401@gmail.com">ansariaftab.2401@gmail.com</a></dd>
+               </dl>
+            </div>
+        </div>
+    </div>
+   </div>
+
+    <script src="/node_modules/jquery/dist/jquery.js"></script>
+    <script src="/node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+</body>
+</html>
